@@ -51,5 +51,10 @@ namespace Pos_Accesorios_Belen.CapaPresentacion
         {
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

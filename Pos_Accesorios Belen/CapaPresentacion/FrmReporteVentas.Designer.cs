@@ -40,10 +40,11 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.BackColor = System.Drawing.Color.Crimson;
-            this.btnCerrar.Location = new System.Drawing.Point(665, 226);
+            this.btnCerrar.BackColor = System.Drawing.Color.Black;
+            this.btnCerrar.ForeColor = System.Drawing.Color.White;
+            this.btnCerrar.Location = new System.Drawing.Point(502, 206);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(126, 57);
+            this.btnCerrar.Size = new System.Drawing.Size(247, 57);
             this.btnCerrar.TabIndex = 13;
             this.btnCerrar.Text = "SALIR";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -51,10 +52,11 @@
             // 
             // btnGenerar
             // 
-            this.btnGenerar.BackColor = System.Drawing.Color.Crimson;
-            this.btnGenerar.Location = new System.Drawing.Point(247, 226);
+            this.btnGenerar.BackColor = System.Drawing.Color.Black;
+            this.btnGenerar.ForeColor = System.Drawing.Color.White;
+            this.btnGenerar.Location = new System.Drawing.Point(218, 206);
             this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.Size = new System.Drawing.Size(333, 57);
+            this.btnGenerar.Size = new System.Drawing.Size(247, 57);
             this.btnGenerar.TabIndex = 12;
             this.btnGenerar.Text = "GENERAR REPORTE";
             this.btnGenerar.UseVisualStyleBackColor = false;
@@ -77,6 +79,7 @@
             // lblFin
             // 
             this.lblFin.AutoSize = true;
+            this.lblFin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblFin.Location = new System.Drawing.Point(479, 127);
             this.lblFin.Name = "lblFin";
             this.lblFin.Size = new System.Drawing.Size(180, 32);
@@ -86,6 +89,7 @@
             // lblInicio
             // 
             this.lblInicio.AutoSize = true;
+            this.lblInicio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblInicio.Location = new System.Drawing.Point(35, 125);
             this.lblInicio.Name = "lblInicio";
             this.lblInicio.Size = new System.Drawing.Size(217, 32);
@@ -96,7 +100,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(391, 18);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.label1.Location = new System.Drawing.Point(339, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(288, 45);
             this.label1.TabIndex = 7;
@@ -118,7 +123,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmReporteVentas";
-            this.Text = "FrmReporteVentas";
+            this.Text = "REPORTE DE VENTAS ";
             this.ResumeLayout(false);
             this.PerformLayout();
 

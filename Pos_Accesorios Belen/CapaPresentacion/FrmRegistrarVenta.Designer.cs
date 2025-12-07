@@ -61,7 +61,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(245, 9);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.label1.Location = new System.Drawing.Point(355, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(499, 32);
             this.label1.TabIndex = 2;
@@ -76,6 +77,7 @@
             this.groupBox1.Controls.Add(this.lblPago);
             this.groupBox1.Controls.Add(this.cboCliente);
             this.groupBox1.Controls.Add(this.lblCliente);
+            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.groupBox1.Location = new System.Drawing.Point(12, 54);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(1130, 97);
@@ -92,7 +94,8 @@
             // 
             // btnNuevoCliente
             // 
-            this.btnNuevoCliente.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnNuevoCliente.BackColor = System.Drawing.Color.Black;
+            this.btnNuevoCliente.ForeColor = System.Drawing.Color.White;
             this.btnNuevoCliente.Location = new System.Drawing.Point(334, 41);
             this.btnNuevoCliente.Name = "btnNuevoCliente";
             this.btnNuevoCliente.Size = new System.Drawing.Size(112, 38);
@@ -103,6 +106,7 @@
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
+            this.lblFecha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblFecha.Location = new System.Drawing.Point(791, 46);
             this.lblFecha.Name = "lblFecha";
             this.lblFecha.Size = new System.Drawing.Size(79, 28);
@@ -120,6 +124,7 @@
             // lblPago
             // 
             this.lblPago.AutoSize = true;
+            this.lblPago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblPago.Location = new System.Drawing.Point(452, 46);
             this.lblPago.Name = "lblPago";
             this.lblPago.Size = new System.Drawing.Size(154, 28);
@@ -137,6 +142,7 @@
             // lblCliente
             // 
             this.lblCliente.AutoSize = true;
+            this.lblCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblCliente.Location = new System.Drawing.Point(6, 46);
             this.lblCliente.Name = "lblCliente";
             this.lblCliente.Size = new System.Drawing.Size(95, 28);
@@ -150,6 +156,7 @@
             this.groupBox2.Controls.Add(this.dgvProductos);
             this.groupBox2.Controls.Add(this.btnBuscarProducto);
             this.groupBox2.Controls.Add(this.lblBuscar);
+            this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.groupBox2.Location = new System.Drawing.Point(12, 157);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(570, 383);
@@ -166,12 +173,13 @@
             // 
             // btnAgregarProducto
             // 
-            this.btnAgregarProducto.BackColor = System.Drawing.Color.Lime;
+            this.btnAgregarProducto.BackColor = System.Drawing.Color.Black;
+            this.btnAgregarProducto.ForeColor = System.Drawing.Color.White;
             this.btnAgregarProducto.Location = new System.Drawing.Point(40, 345);
             this.btnAgregarProducto.Name = "btnAgregarProducto";
             this.btnAgregarProducto.Size = new System.Drawing.Size(386, 38);
             this.btnAgregarProducto.TabIndex = 9;
-            this.btnAgregarProducto.Text = "AGRAGR PRODUCTO AL CARRITO";
+            this.btnAgregarProducto.Text = "AGRAGAR PRODUCTO AL CARRITO";
             this.btnAgregarProducto.UseVisualStyleBackColor = false;
             this.btnAgregarProducto.Click += new System.EventHandler(this.btnAgregarProducto_Click);
             // 
@@ -191,7 +199,8 @@
             // 
             // btnBuscarProducto
             // 
-            this.btnBuscarProducto.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnBuscarProducto.BackColor = System.Drawing.Color.Black;
+            this.btnBuscarProducto.ForeColor = System.Drawing.Color.White;
             this.btnBuscarProducto.Location = new System.Drawing.Point(432, 42);
             this.btnBuscarProducto.Name = "btnBuscarProducto";
             this.btnBuscarProducto.Size = new System.Drawing.Size(112, 38);
@@ -204,7 +213,8 @@
             // lblBuscar
             // 
             this.lblBuscar.AutoSize = true;
-            this.lblBuscar.Location = new System.Drawing.Point(6, 42);
+            this.lblBuscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblBuscar.Location = new System.Drawing.Point(7, 42);
             this.lblBuscar.Name = "lblBuscar";
             this.lblBuscar.Size = new System.Drawing.Size(94, 28);
             this.lblBuscar.TabIndex = 7;
@@ -215,6 +225,7 @@
             this.groupBox3.Controls.Add(this.btnLimpiarDetalle);
             this.groupBox3.Controls.Add(this.btnQuitar);
             this.groupBox3.Controls.Add(this.dgvDetalles);
+            this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.groupBox3.Location = new System.Drawing.Point(588, 168);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(595, 372);
@@ -224,8 +235,9 @@
             // 
             // btnLimpiarDetalle
             // 
-            this.btnLimpiarDetalle.BackColor = System.Drawing.Color.Crimson;
+            this.btnLimpiarDetalle.BackColor = System.Drawing.Color.Black;
             this.btnLimpiarDetalle.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiarDetalle.ForeColor = System.Drawing.Color.White;
             this.btnLimpiarDetalle.Location = new System.Drawing.Point(464, 220);
             this.btnLimpiarDetalle.Name = "btnLimpiarDetalle";
             this.btnLimpiarDetalle.Size = new System.Drawing.Size(115, 88);
@@ -236,8 +248,9 @@
             // 
             // btnQuitar
             // 
-            this.btnQuitar.BackColor = System.Drawing.Color.Orange;
+            this.btnQuitar.BackColor = System.Drawing.Color.Black;
             this.btnQuitar.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuitar.ForeColor = System.Drawing.Color.White;
             this.btnQuitar.Location = new System.Drawing.Point(464, 98);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(115, 88);
@@ -264,6 +277,7 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblTotal.Location = new System.Drawing.Point(220, 568);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(322, 32);
@@ -272,7 +286,8 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.BackColor = System.Drawing.Color.Crimson;
+            this.btnCancelar.BackColor = System.Drawing.Color.Black;
+            this.btnCancelar.ForeColor = System.Drawing.Color.White;
             this.btnCancelar.Location = new System.Drawing.Point(876, 556);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(250, 59);
@@ -283,7 +298,8 @@
             // 
             // btnRegistrarVenta
             // 
-            this.btnRegistrarVenta.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnRegistrarVenta.BackColor = System.Drawing.Color.Black;
+            this.btnRegistrarVenta.ForeColor = System.Drawing.Color.White;
             this.btnRegistrarVenta.Location = new System.Drawing.Point(588, 556);
             this.btnRegistrarVenta.Name = "btnRegistrarVenta";
             this.btnRegistrarVenta.Size = new System.Drawing.Size(250, 59);
@@ -306,9 +322,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmRegistrarVenta";
-            this.Text = "FrmRegistrarVenta";
+            this.Text = "REGISTRO DE VENTA";
             this.Load += new System.EventHandler(this.FrmRegistrarVenta_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

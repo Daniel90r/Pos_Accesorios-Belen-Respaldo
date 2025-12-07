@@ -58,9 +58,9 @@
             this.btnProductos = new System.Windows.Forms.Button();
             this.btnVentaRapida = new System.Windows.Forms.Button();
             this.panelCentral = new System.Windows.Forms.Panel();
-            this.lblUsuario = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.menuSuperior.SuspendLayout();
             this.panelIzquierdo.SuspendLayout();
             this.panelCentral.SuspendLayout();
@@ -81,7 +81,7 @@
             this.cambiarClaveToolStripMenuItem});
             this.menuSuperior.Location = new System.Drawing.Point(0, 0);
             this.menuSuperior.Name = "menuSuperior";
-            this.menuSuperior.Size = new System.Drawing.Size(890, 36);
+            this.menuSuperior.Size = new System.Drawing.Size(901, 33);
             this.menuSuperior.TabIndex = 1;
             this.menuSuperior.Text = "menuStrip1";
             // 
@@ -92,7 +92,7 @@
             this.productosToolStripMenuItem,
             this.categoríasToolStripMenuItem});
             this.gestiónToolStripMenuItem.Name = "gestiónToolStripMenuItem";
-            this.gestiónToolStripMenuItem.Size = new System.Drawing.Size(88, 30);
+            this.gestiónToolStripMenuItem.Size = new System.Drawing.Size(88, 29);
             this.gestiónToolStripMenuItem.Text = "Gestión";
             // 
             // clientesToolStripMenuItem
@@ -164,7 +164,7 @@
             this.registrarVentaToolStripMenuItem,
             this.historialDeVentasToolStripMenuItem});
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(80, 30);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
             this.ventasToolStripMenuItem.Text = "Ventas";
             // 
             // registrarVentaToolStripMenuItem
@@ -186,7 +186,7 @@
             this.másVendidoToolStripMenuItem,
             this.cierreDeCajaToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
-            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(98, 30);
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(98, 29);
             this.reportesToolStripMenuItem.Text = "Reportes";
             // 
             // reporteDiarioToolStripMenuItem
@@ -210,13 +210,13 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(61, 30);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(61, 29);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
             // cambiarClaveToolStripMenuItem
             // 
             this.cambiarClaveToolStripMenuItem.Name = "cambiarClaveToolStripMenuItem";
-            this.cambiarClaveToolStripMenuItem.Size = new System.Drawing.Size(141, 30);
+            this.cambiarClaveToolStripMenuItem.Size = new System.Drawing.Size(141, 29);
             this.cambiarClaveToolStripMenuItem.Text = "Cambiar Clave";
             this.cambiarClaveToolStripMenuItem.Click += new System.EventHandler(this.cambiarClaveToolStripMenuItem_Click);
             // 
@@ -232,9 +232,9 @@
             this.panelIzquierdo.Controls.Add(this.btnProductos);
             this.panelIzquierdo.Controls.Add(this.btnVentaRapida);
             this.panelIzquierdo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelIzquierdo.Location = new System.Drawing.Point(0, 36);
+            this.panelIzquierdo.Location = new System.Drawing.Point(0, 33);
             this.panelIzquierdo.Name = "panelIzquierdo";
-            this.panelIzquierdo.Size = new System.Drawing.Size(257, 599);
+            this.panelIzquierdo.Size = new System.Drawing.Size(257, 602);
             this.panelIzquierdo.TabIndex = 2;
             // 
             // btnReporte
@@ -286,6 +286,7 @@
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnCategoria
             // 
@@ -375,20 +376,10 @@
             // 
             this.panelCentral.Controls.Add(this.panel1);
             this.panelCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCentral.Location = new System.Drawing.Point(257, 36);
+            this.panelCentral.Location = new System.Drawing.Point(257, 33);
             this.panelCentral.Name = "panelCentral";
-            this.panelCentral.Size = new System.Drawing.Size(633, 599);
+            this.panelCentral.Size = new System.Drawing.Size(644, 602);
             this.panelCentral.TabIndex = 3;
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(506, 2);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(598, 28);
-            this.lblUsuario.TabIndex = 4;
-            this.lblUsuario.Text = "$\"Usuario: {SesionActual.NombreUsuario} - Rol: {SesionActual.Rol}\";";
             // 
             // panel1
             // 
@@ -408,18 +399,28 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(506, 2);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(598, 28);
+            this.lblUsuario.TabIndex = 4;
+            this.lblUsuario.Text = "$\"Usuario: {SesionActual.NombreUsuario} - Rol: {SesionActual.Rol}\";";
+            // 
             // FrmMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(890, 635);
+            this.ClientSize = new System.Drawing.Size(901, 635);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.panelCentral);
             this.Controls.Add(this.panelIzquierdo);
             this.Controls.Add(this.menuSuperior);
             this.Name = "FrmMenuPrincipal";
-            this.Text = "Form1";
+            this.Text = "MENU PRINCIPAL";
             this.menuSuperior.ResumeLayout(false);
             this.menuSuperior.PerformLayout();
             this.panelIzquierdo.ResumeLayout(false);

@@ -60,5 +60,10 @@ namespace Pos_Accesorios_Belen
             FrmRegistrarVenta frm = new FrmRegistrarVenta();
             frm.ShowDialog();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

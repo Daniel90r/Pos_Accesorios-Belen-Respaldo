@@ -43,6 +43,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label4.Location = new System.Drawing.Point(36, 277);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(333, 32);
@@ -53,6 +54,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label3.Location = new System.Drawing.Point(36, 212);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(270, 32);
@@ -63,7 +65,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(36, 146);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Location = new System.Drawing.Point(36, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(280, 32);
             this.label2.TabIndex = 6;
@@ -73,7 +76,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(107, 48);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.label1.Location = new System.Drawing.Point(239, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(262, 45);
             this.label1.TabIndex = 5;
@@ -81,7 +85,8 @@
             // 
             // btnCancelar
             // 
-            this.btnCancelar.BackColor = System.Drawing.Color.Crimson;
+            this.btnCancelar.BackColor = System.Drawing.Color.Black;
+            this.btnCancelar.ForeColor = System.Drawing.Color.White;
             this.btnCancelar.Location = new System.Drawing.Point(453, 374);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(235, 49);
@@ -92,7 +97,8 @@
             // 
             // btnCambiar
             // 
-            this.btnCambiar.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnCambiar.BackColor = System.Drawing.Color.Black;
+            this.btnCambiar.ForeColor = System.Drawing.Color.White;
             this.btnCambiar.Location = new System.Drawing.Point(81, 374);
             this.btnCambiar.Name = "btnCambiar";
             this.btnCambiar.Size = new System.Drawing.Size(235, 49);
@@ -140,7 +146,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmCambiarClave";
-            this.Text = "FrmCambiarClave";
+            this.Text = "CAMBIAR CLAVE";
             this.Load += new System.EventHandler(this.FrmCambiarClave_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
